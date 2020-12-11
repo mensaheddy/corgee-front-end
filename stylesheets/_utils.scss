@@ -1,0 +1,64 @@
+@for $i from 1 through 5 {
+  .mb-#{$i} {
+    margin-bottom: 5 * $i;
+  }
+
+  .mt-#{$i} {
+    margin-top: 5 * $i;
+  }
+
+  .mr-#{$i} {
+    margin-right: 5 * $i;
+  }
+
+  .ml-#{$i} {
+    margin-left: 5 * $i;
+  }
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.font-weight-light {
+  font-weight: lighter;
+}
+
+.font-weight-bold {
+  font-weight: 500;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-primary {
+  color: $blue-color;
+}
+
+.text-secondary {
+  color: $grey-color;
+}
+
+.text-danger {
+  color: #E6492D;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+
+  &.space-between {
+    justify-content: space-between;
+  }
+
+  &.v-align-center {
+    align-items: center;
+  }
+}
